@@ -95,4 +95,14 @@ class CalculatorTest {
 
   }
 
+  @Test
+  void addThenMultiplyThenDivide(){
+    Calculator calc = new Calculator();
+
+    int actualValue = calc.addThenMultiplyThenDivide(10, 10, 10, 10);
+    int expectedValue = (10+10) * 10 / 10;
+
+    Assertions.assertEquals(expectedValue, actualValue);
+  }
+
 }
