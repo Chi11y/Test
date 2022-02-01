@@ -18,5 +18,7 @@ public class Main {
       System.out.println(name.fullName("Callum", "Mitchell", "Hill"));
       System.out.println(name.firstName("Hibs"));
 
+      System.out.println(calc.multiplyThenDivide(10, 10, 10));
+
   }
 }
