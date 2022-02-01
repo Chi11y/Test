@@ -16,6 +16,7 @@ public class Main {
       name.middleName("Mitchell");
       name.lastName("Hill");
       System.out.println(name.fullName("Callum", "Mitchell", "Hill"));
+      System.out.println(name.firstName("Hibs"));
 
   }
 }
