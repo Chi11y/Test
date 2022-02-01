@@ -36,4 +36,8 @@ return a + b;
     public int multiplyThenDivide(int a, int b, int c) {
         return (a * b) / c;
     }
+
+    public int addThenMultiplyThenDivide(int a, int b, int c, int d) {
+        return (a + b) * c / d;
+    }
 }
